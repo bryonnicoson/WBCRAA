@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Wishbone Canine Rescue</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="title_adopt">Adopt</string>
+    <string name="title_attend">Attend</string>
+    <string name="title_donate">Donate</string>
+    <string name="title_foster">Foster</string>
+    <string name="title_volunteer">Volunteer</string>
+
+    <string name="hello_adopt">hello adopt</string>
+    <string name="hello_attend">hello attend</string>
+    <string name="hello_donate">hello donate</string>
+    <string name="hello_foster">hello foster</string>
+    <string name="hello_volunteer">hello volunteer</string>
+
+    <string name="transition_dog_photo">Dog Photo</string>
+    <string name="transition_dog_name">Dog Name</string>
+    <string name="transition_dog_size">Dog Size</string>
+    <string name="transition_dog_age">Dog Age</string>
+    <string name="transition_dog_sex">Dog Sex</string>
+    <string name="transition_dog_breed">Dog Breed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

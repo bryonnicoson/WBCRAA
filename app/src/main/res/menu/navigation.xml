@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_adopt"
+        android:icon="@drawable/ic_adopt"
+        android:title="@string/title_adopt" />
+
+    <item
+        android:id="@+id/navigation_attend"
+        android:icon="@drawable/ic_attend"
+        android:title="@string/title_attend" />
+
+    <item
+        android:id="@+id/navigation_donate"
+        android:icon="@drawable/ic_dog_bone"
+        android:title="@string/title_donate" />
+
+    <item
+        android:id="@+id/navigation_foster"
+        android:icon="@drawable/ic_dog_house"
+        android:title="@string/title_foster" />
+
+    <item
+        android:id="@+id/navigation_volunteer"
+        android:icon="@drawable/ic_volunteer"
+        android:title="@string/title_volunteer" />
+
+</menu>
