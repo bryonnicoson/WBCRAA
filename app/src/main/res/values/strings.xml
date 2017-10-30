@@ -25,7 +25,32 @@
     <string name="transition_dog_sex">Dog Sex</string>
     <string name="transition_dog_breed">Dog Breed</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="foster_what_title">What is fostering?</string>
+    <string name="foster_what_text">Our foster program allows WBCR to rescue dogs who might otherwise be euthanized in overcrowded shelters and place them in the safety and comfort of a home environment.\n\nLife in a shelter can be stressful for many dogs, and the overcrowding many shelters experience make it difficult to provide individual attention to the dogs.  When rescue dogs are placed in foster they are able to relax and enjoy life in a temporary home while waiting for their forever homes.  Foster families are able to observe dogs in a home environment and provide information to adopters on the dog\'s personality, habits and needs.  Fosters can work on basic good manners training or other issues that will help the dogs become more adoptable.</string>
+    <string name="foster_who_title">Who can foster?</string>
+    <string name="foster_who_text">Anyone can become a foster for WBCR.  We welcome fosters with children and other pets.  We require that all pets living in the foster home be spayed/neutered and up to date on all vaccinations.  You must reside within 30 minutes from Wish Bone Canine Rescue in case of an emergency and your foster dog may need to see our veterinarian.  If you meet these requirements, we\'d love to have you foster for us!</string>
+    <string name="foster_faq_title">Foster FAQs</string>
+    <string name="foster_faq_q1">Q:  Do I get to choose which dogs I foster?</string>
+    <string name="foster_faq_a1">A: Yes!  We rescue a variety of breeds, sizes and personalities.  We will share all we know about each dog and invite you to decide which dogs might be a good fit in your home.</string>
+    <string name="foster_faq_q2">Q:  How long would I have a foster dog?</string>
+    <string name="foster_faq_a2">A:  If the foster dog is a good fit in your home, we ask that you keep the dog until we find a forever home.  A typical foster stay is about 2 weeks.  Some breeds/sizes go more quickly and others more slowly.</string>
+    <string name="foster_faq_q3">Q:  What if the foster dog doesn\'t work out in my house?</string>
+    <string name="foster_faq_a3">A:  As a foster, you\'re under no obligation to keep a dog that does not fit in your home.  We are happy to provide training and management tips to help make fostering a pleasant experience, but if a dog is not a good fit for your family, we will find him/her a new foster home.</string>
+    <string name="foster_faq_q4">Q:  Do I control when I foster?</string>
+    <string name="foster_faq_a4">A:  A:  You may choose to foster as often as you like.  If you want to have a foster dog in your home most of the time, great!  If you would rather take breaks between fostering, or if a busy schedule sometimes make it difficult for you to foster, we are happy to accommodate.</string>
+    <string name="foster_faq_q5">Q:  What if I decide I want to adopt my foster dog?</string>
+    <string name="foster_faq_a5">A:  We try to give our fosters first chance at adopting.  If you decide you want to make your foster dog a permanent part of your family, we\'ll be happy to work with you to make that happen!</string>
+    <string name="foster_faq_q6">Q:  Do I have to pay for vet care, food, or other expenses?</string>
+    <string name="foster_faq_a6">A:  All WBCR dogs are spayed/neutered, vaccinated, microchipped and placed on heartworm and flea/tick preventatives before being placed in a foster home.  The only expense we ask you to pay is for your State of Illinois foster license fee of $25.00 for one year.</string>
+    <string name="foster_responsibilities_title">Foster Responsibilities</string>
+   <string name="foster_responsibilities_text">Fosters are asked to commit to the following:
+        \n\n\&#10004; Ensure their foster dog attend all WBCR adoption events.  Help with transport can be arranged, if necessary
+        \n\n\&#10004; Be available for adoption meeting between adoption events
+        \n\n\&#10004; Work on basic training with foster dog while they are in your home
+        \n\n\&#10004; Provide a safe, loving home for your foster dog while they wait for their forever home
+        \n\nIf you have further questions, please contact a member of the foster team at: wbcr.fosterteam@gmail.com
+    </string>
+    <string name="foster_button">Apply to become a foster home</string>
+
 
 </resources>

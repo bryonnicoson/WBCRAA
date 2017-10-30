@@ -58,6 +58,4 @@ public class MainActivity extends AppCompatActivity {
             transaction.replace(R.id.content_frame, DogFragment.newInstance()).commit();
         }
     }
-
-
 }

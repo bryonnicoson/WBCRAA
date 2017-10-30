@@ -4,12 +4,6 @@
     android:layout_height="match_parent"
     tools:context=".DogFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_adopt" />
-
     <ListView
         android:id="@+id/dog_card_list_view"
         android:layout_width="match_parent"

@@ -25,13 +25,19 @@ import okhttp3.Response;
 
 public class DogFragment extends Fragment {
 
+    private String TAG = this.getClass().getSimpleName();
+
     private OkHttpClient client = new OkHttpClient();
     public JsonResponse jsonResponse;
     private Gson gson = new Gson();
-    public ArrayList<Dog> dogs = new ArrayList<>();
+    public ArrayList<Dog> dogs;
     public AdapterView.OnItemClickListener dogClickListener;
     public Intent detailIntent;
 
+    // to save listview state, declare here
+//    public Parcelable dogListViewState;
+    public ListView dogListView;
+    public DogListAdapter dogListAdapter;
 
     public static DogFragment newInstance() {
         DogFragment fragment = new DogFragment();
@@ -40,12 +46,11 @@ public class DogFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
-        setRetainInstance(true);
-
+        //setRetainInstance(true);
         // use activity context
         new DogFetchTask(getActivity()).execute();
+
     }
 
     @Override
@@ -53,6 +58,7 @@ public class DogFragment extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_dog, container, false);
     }
+
 
     private class DogFetchTask extends AsyncTask<String, Void, JsonResponse> {
 
@@ -75,10 +81,11 @@ public class DogFragment extends Fragment {
 
         protected void onPostExecute(JsonResponse jsonResponse) {
             dogs = Dog.dogMaker(jsonResponse);
-            DogListAdapter dogListAdapter = new DogListAdapter(mContext, dogs);
+            dogListAdapter = new DogListAdapter(mContext, dogs);
             // fragment view inflated in onCreateView - use getActivity().findViewById(int)
-            ListView dogListView = (ListView) getActivity().findViewById(R.id.dog_card_list_view);
+            dogListView = getActivity().findViewById(R.id.dog_card_list_view);
             dogListView.setAdapter(dogListAdapter);
+
         }
     }
 }
